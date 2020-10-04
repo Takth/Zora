@@ -1,11 +1,39 @@
 $primary-color: #5741ec;
 $primary-color-light: #7c67ff;
 $primary-color-dark: #4734c4;
+$primary-color-fore: #ffffff;
+$primary-color-fore-outline: #000000;
 $secoundary-color: #590995;
+$secoundary-color-light: #6e0abb;
+$secoundary-color-dark: #48077a;
+$secoundary-color-fore: #ffffff;
+$secoundary-color-fore-outline: #000000;
 $green-color: #03c4a1;
+$green-color-light: #00dbb3;
+$green-color-dark: #01a587;
+$green-color-fore: #ffffff;
+$green-color-fore-outline: #000000;
 $red-color: #c62a88;
+$red-color-light: #dd2e97;
+$red-color-dark: #a82674;
+$red-color-fore: #ffffff;
+$red-color-fore-outline: #000000;
 $black-color: #000000;
 $white-color: #ffffff;
 $fore-color: #ffffff;
 $orange-color: #f08a5d;
+$orange-color-light: #ff9d73;
+$orange-color-dark: #df7c51;
+$orange-color-fore: #ffffff;
+$orange-color-fore-outline: #000000;
 $info-color: #51adcf;
+$info-color-light: #5bc7ee;
+$info-color-dark: #448ea8;
+$info-color-fore: #ffffff;
+$info-color-fore-outline: #000000;
+
+$btns: 'primary'$primary-color $primary-color-light $primary-color-dark $primary-color-fore $primary-color-fore-outline,
+'red'$red-color $red-color-light $red-color-dark $red-color-fore $red-color-fore-outline,
+'green'$green-color $green-color-light $green-color-dark $green-color-fore $green-color-fore-outline,
+'info'$info-color $info-color-light $info-color-dark $info-color-fore $info-color-fore-outline,
+'orange'$orange-color $orange-color-light $orange-color-dark $orange-color-fore $orange-color-fore-outline;

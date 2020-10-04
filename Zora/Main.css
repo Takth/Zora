@@ -8,10 +8,10 @@ body {
   border-radius: 0.3rem;
   min-width: 5rem;
   min-height: 2rem;
-  border-color: #000000;
-  border-width: 0.1rem;
+  border-width: 0rem;
   font-size: 1.2rem;
   padding: 0.5rem;
+  outline: 0rem !important;
   color: #ffffff;
   -moz-transition: background-color 0.05s 0.05s, color 0.2s;
   -o-transition: background-color 0.05s 0.05s, color 0.2s;
@@ -20,11 +20,252 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #7c67ff;
+  background-color: #4734c4;
 }
 
 .btn-primary:active {
-  background-color: #4734c4;
+  background-color: #7c67ff;
+}
+
+.btn-primary-outline {
+  border-radius: 0.3rem;
+  outline: 0rem !important;
+  background-color: white;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-color: #5741ec;
+  border-width: 0.2rem;
+  box-shadow: none;
+  border-style: solid;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: #5741ec;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-primary-outline:hover {
+  color: #ffffff;
+  background-color: #5741ec;
+}
+
+.btn-primary-outline:active {
+  color: #ffffff;
+  background-color: #7c67ff;
+}
+
+.btn-red {
+  background-color: #c62a88;
+  border-radius: 0.3rem;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-width: 0rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  outline: 0rem !important;
+  color: #ffffff;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-red:hover {
+  background-color: #a82674;
+}
+
+.btn-red:active {
+  background-color: #dd2e97;
+}
+
+.btn-red-outline {
+  border-radius: 0.3rem;
+  outline: 0rem !important;
+  background-color: white;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-color: #c62a88;
+  border-width: 0.2rem;
+  box-shadow: none;
+  border-style: solid;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: #c62a88;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-red-outline:hover {
+  color: #ffffff;
+  background-color: #c62a88;
+}
+
+.btn-red-outline:active {
+  color: #ffffff;
+  background-color: #dd2e97;
+}
+
+.btn-green {
+  background-color: #03c4a1;
+  border-radius: 0.3rem;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-width: 0rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  outline: 0rem !important;
+  color: #ffffff;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-green:hover {
+  background-color: #01a587;
+}
+
+.btn-green:active {
+  background-color: #00dbb3;
+}
+
+.btn-green-outline {
+  border-radius: 0.3rem;
+  outline: 0rem !important;
+  background-color: white;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-color: #03c4a1;
+  border-width: 0.2rem;
+  box-shadow: none;
+  border-style: solid;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: #03c4a1;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-green-outline:hover {
+  color: #ffffff;
+  background-color: #03c4a1;
+}
+
+.btn-green-outline:active {
+  color: #ffffff;
+  background-color: #00dbb3;
+}
+
+.btn-info {
+  background-color: #51adcf;
+  border-radius: 0.3rem;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-width: 0rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  outline: 0rem !important;
+  color: #ffffff;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-info:hover {
+  background-color: #448ea8;
+}
+
+.btn-info:active {
+  background-color: #5bc7ee;
+}
+
+.btn-info-outline {
+  border-radius: 0.3rem;
+  outline: 0rem !important;
+  background-color: white;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-color: #51adcf;
+  border-width: 0.2rem;
+  box-shadow: none;
+  border-style: solid;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: #51adcf;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-info-outline:hover {
+  color: #ffffff;
+  background-color: #51adcf;
+}
+
+.btn-info-outline:active {
+  color: #ffffff;
+  background-color: #5bc7ee;
+}
+
+.btn-orange {
+  background-color: #f08a5d;
+  border-radius: 0.3rem;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-width: 0rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  outline: 0rem !important;
+  color: #ffffff;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-orange:hover {
+  background-color: #df7c51;
+}
+
+.btn-orange:active {
+  background-color: #ff9d73;
+}
+
+.btn-orange-outline {
+  border-radius: 0.3rem;
+  outline: 0rem !important;
+  background-color: white;
+  min-width: 5rem;
+  min-height: 2rem;
+  border-color: #f08a5d;
+  border-width: 0.2rem;
+  box-shadow: none;
+  border-style: solid;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: #f08a5d;
+  -moz-transition: background-color 0.05s 0.05s, color 0.2s;
+  -o-transition: background-color 0.05s 0.05s, color 0.2s;
+  -webkit-transition: background-color 0.05s 0.05s, color 0.2s;
+  transition: background-color 0.05s 0.05s, color 0.2s;
+}
+
+.btn-orange-outline:hover {
+  color: #ffffff;
+  background-color: #f08a5d;
+}
+
+.btn-orange-outline:active {
+  color: #ffffff;
+  background-color: #ff9d73;
 }
 
 /*# sourceMappingURL=Main.css.map */
