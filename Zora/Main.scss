@@ -48,10 +48,10 @@ body{
     .btn-#{$btn}{
         background-color: $color;
         border-radius: .3rem;
-        min-width: 5rem;
-        min-height: 2rem;
+        min-width: 4rem;
+        min-height: 1rem;
         border-width: 0rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: .5rem;
         outline: 0rem !important;
         color: $color-for;
@@ -91,6 +91,18 @@ body{
     }
 }
 
+.btn-small{
+    min-height: 1rem;
+    min-width: 1rem;
+    font-size: .9rem;
+}
+
+.btn-lg{
+    min-height: 3rem;
+    min-width: 4rem;
+    font-size: 1.5rem;
+}
+
 .section{
     box-shadow: 0rem;
     padding: 0rem;
@@ -109,10 +121,10 @@ body{
     border-color: rgba($gray-color, .4);
     margin-bottom: 0.3rem;
     margin-top: 0.5rem;
-    padding: 0 .4rem 0 .4rem;
+    padding: 0 1rem 0 1rem;
 }
 
-.section > p.details{
+.section > .details{
     margin:0rem;
-    padding: .4rem;
+    padding: .2rem 1rem 1rem 1rem;
 }

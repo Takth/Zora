@@ -6,10 +6,10 @@ body {
 .btn-primary {
   background-color: #5741ec;
   border-radius: 0.3rem;
-  min-width: 5rem;
-  min-height: 2rem;
+  min-width: 4rem;
+  min-height: 1rem;
   border-width: 0rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
   outline: 0rem !important;
   color: #ffffff;
@@ -59,10 +59,10 @@ body {
 .btn-red {
   background-color: #c62a88;
   border-radius: 0.3rem;
-  min-width: 5rem;
-  min-height: 2rem;
+  min-width: 4rem;
+  min-height: 1rem;
   border-width: 0rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
   outline: 0rem !important;
   color: #ffffff;
@@ -112,10 +112,10 @@ body {
 .btn-green {
   background-color: #03c4a1;
   border-radius: 0.3rem;
-  min-width: 5rem;
-  min-height: 2rem;
+  min-width: 4rem;
+  min-height: 1rem;
   border-width: 0rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
   outline: 0rem !important;
   color: #ffffff;
@@ -165,10 +165,10 @@ body {
 .btn-info {
   background-color: #51adcf;
   border-radius: 0.3rem;
-  min-width: 5rem;
-  min-height: 2rem;
+  min-width: 4rem;
+  min-height: 1rem;
   border-width: 0rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
   outline: 0rem !important;
   color: #ffffff;
@@ -218,10 +218,10 @@ body {
 .btn-orange {
   background-color: #f08a5d;
   border-radius: 0.3rem;
-  min-width: 5rem;
-  min-height: 2rem;
+  min-width: 4rem;
+  min-height: 1rem;
   border-width: 0rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
   outline: 0rem !important;
   color: #ffffff;
@@ -268,6 +268,18 @@ body {
   background-color: #ff9d73;
 }
 
+.btn-small {
+  min-height: 1rem;
+  min-width: 1rem;
+  font-size: 0.9rem;
+}
+
+.btn-lg {
+  min-height: 3rem;
+  min-width: 4rem;
+  font-size: 1.5rem;
+}
+
 .section {
   box-shadow: 0rem;
   padding: 0rem;
@@ -286,12 +298,12 @@ body {
   border-color: rgba(94, 94, 94, 0.4);
   margin-bottom: 0.3rem;
   margin-top: 0.5rem;
-  padding: 0 0.4rem 0 0.4rem;
+  padding: 0 1rem 0 1rem;
 }
 
-.section > p.details {
+.section > .details {
   margin: 0rem;
-  padding: 0.4rem;
+  padding: 0.2rem 1rem 1rem 1rem;
 }
 
 /*# sourceMappingURL=Main.css.map */
