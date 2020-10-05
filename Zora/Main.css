@@ -34,7 +34,7 @@ body {
   min-width: 5rem;
   min-height: 2rem;
   border-color: #5741ec;
-  border-width: 0.2rem;
+  border-width: 0.15rem;
   box-shadow: none;
   border-style: solid;
   font-size: 1.2rem;
@@ -87,7 +87,7 @@ body {
   min-width: 5rem;
   min-height: 2rem;
   border-color: #c62a88;
-  border-width: 0.2rem;
+  border-width: 0.15rem;
   box-shadow: none;
   border-style: solid;
   font-size: 1.2rem;
@@ -140,7 +140,7 @@ body {
   min-width: 5rem;
   min-height: 2rem;
   border-color: #03c4a1;
-  border-width: 0.2rem;
+  border-width: 0.15rem;
   box-shadow: none;
   border-style: solid;
   font-size: 1.2rem;
@@ -193,7 +193,7 @@ body {
   min-width: 5rem;
   min-height: 2rem;
   border-color: #51adcf;
-  border-width: 0.2rem;
+  border-width: 0.15rem;
   box-shadow: none;
   border-style: solid;
   font-size: 1.2rem;
@@ -246,7 +246,7 @@ body {
   min-width: 5rem;
   min-height: 2rem;
   border-color: #f08a5d;
-  border-width: 0.2rem;
+  border-width: 0.15rem;
   box-shadow: none;
   border-style: solid;
   font-size: 1.2rem;
@@ -266,6 +266,32 @@ body {
 .btn-orange-outline:active {
   color: #ffffff;
   background-color: #ff9d73;
+}
+
+.section {
+  box-shadow: 0rem;
+  padding: 0rem;
+  border-width: 0.12rem;
+  border-color: rgba(94, 94, 94, 0.4);
+  border-style: solid;
+  border-radius: 0.4rem;
+  -webkit-box-shadow: 0 0 10px #5e5e5e;
+  box-shadow: 0 0 10px #5e5e5e;
+}
+
+.section > .section-header {
+  border-style: none none solid none;
+  border-width: 0.07rem;
+  font-weight: 450;
+  border-color: rgba(94, 94, 94, 0.4);
+  margin-bottom: 0.3rem;
+  margin-top: 0.5rem;
+  padding: 0 0.4rem 0 0.4rem;
+}
+
+.section > p.details {
+  margin: 0rem;
+  padding: 0.4rem;
 }
 
 /*# sourceMappingURL=Main.css.map */
